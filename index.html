@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahora Comidas</title>
+    <link rel="icon" href="https://img.icons8.com/?size=64&id=wqMCXXwVnkX2&format=png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header class="header" id="inicio">
+        <div class="menu container">
+            <img class="logo-1" src="images/logo.png" alt="">
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#oferta">Ofertas</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                    </ul>
+                </div>
+                <img class="logo-2" src="images/logo.png" alt="">
+                <div class="menu-2">
+                    <ul>
+                        <li><a href="#horario">Horario</a></li>
+                    </ul>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/diegoezequiel.marcos" target="_blank">
+                            <div class="social">
+                                <img src="images/s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://twitter.com/ezemcs" target="_blank">
+                            <div class="social">
+                                <img src="images/s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/ezemcs/?hl=es-la" target="_blank">
+                            <div class="social">
+                                <img src="images/s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Hamburguesa con Tocino</h1>
+                                <p>Una increíble hamburguesa completa con el mejor sabor de tocino que recorre tu paladar. Receta única en Posadas. Carne de muy buena calidad con una presentación espléndida.
+                                </p>
+                                <div class="botones">
+                                    <a href="compra.html" class="btn-1">Comprar</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="images/slider1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Sándwich de JyQ</h1>
+                                <p>
+                                    El jamón de calidad se combina con el queso único en un pan suave y crujiente, creando una experiencia culinaria irresistible. Este sándwich es una combinación perfecta de sabores y texturas que te satifará
+                                </p>
+                                <div class="botones">
+                                    <a href="compra.html" class="btn-1">Comprar</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="images/slider2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Hamburguesa completa</h1>
+                                <p>Jugosa carne a la parrilla, acompañada de queso derretido, crujientes vegetales frescos y con adherezos especiales, esta hamburguesa es la opción perfecta para saciar tu hambre.
+                                </p>
+                                <div class="botones">
+                                    <a href="compra.html" class="btn-1">Comprar</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="images/slider3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-pagination"></div>
+            </div>
+        </div>
+    </header>
+    <main class="products" id="productos">
+        <div class="tabs container">
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <label for="tab1">Sándwichs y Hamburguesas</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food1.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Hamburguesa completa</h4>
+                                    <p>La mejor de todas</p>
+                                    <span class="price">$3200</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food2.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Sándwich JyQ</h4>
+                                    <p>Gusto único</p>
+                                    <span class="price">$2000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food3.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Hamburguesa de pollo</h4>
+                                    <p>Opción diferente</p>
+                                    <span class="price">$3500</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for="tab2">Shawarma</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food4.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Clásico</h4>
+                                    <p>Gusto tradicional</p>
+                                    <span class="price">$3120</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food5.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Vegetariano</h4>
+                                    <p>Saludable opción</p>
+                                    <span class="price">$3050</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food6.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Completo</h4>
+                                    <p>Mezcla de ingredientes</p>
+                                    <span class="price">$3500</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <label for="tab3">Variedad</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food7.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Aros de cebolla</h4>
+                                    <p>Plato crujiente</p>
+                                    <span class="price">$3000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food8.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Galetto</h4>
+                                    <p>Perfecto para un Domingo</p>
+                                    <span class="price">$2000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo</h4>
+                                    <img src="images/food9.png" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Pizza con Salame</h4>
+                                    <p>Paladar picante</p>
+                                    <span class="price">$1850</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="info container" id="oferta">
+        <div class="info-img">
+            <img src="images/info.png" alt="">
+        </div>
+        <div class="info-txt">
+            <h2>Oferta del día</h2>
+            <p>Una súper oferta que no te la podes perder!!!</p>
+            <a href="info.html" class="btn-2">Más Info</a>
+        </div>
+    </section>
+    <section class="horario" id="horario">
+        <div class="horario-info container">
+            <h2>Horario</h2>
+            <div class="horario-txt">
+                <div class="txt">
+                    <h4>Dirección</h4>
+                    <p>Chacabuco 3960</p>
+                </div>
+                <div class="txt">
+                    <h4>Horario</h4>
+                    <p>Lunes a Sábado: 9hs-20hs</p>
+                </div>
+                <div class="txt">
+                    <h4>Teléfono</h4>
+                    <p>3764335246</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3542.6782118588767!2d-55.9182433!3d-27.385763299999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457be68dba88627%3A0x13db65fc3ff1fd7f!2sMLG%2C%20Av.%20Chacabuco%203960%2C%20N3300%20Posadas%2C%20Misiones!5e0!3m2!1ses-419!2sar!4v1699450793426!5m2!1ses-419!2sar" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <footer class="footer container">
+        <img class="logo-2" src="images/logo.png" alt="">
+        <div class="links">
+            <h4>Creador</h4>
+            <ul>
+                <li><a href="#">Marcos, Diego Ezequiel</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Redes Sociales</h4>
+            <div class="socials">
+                <a href="https://www.facebook.com/diegoezequiel.marcos" target="_blank">
+                    <div class="social">
+                        <img src="images/s1.svg" alt="">
+                    </div>
+                </a>
+                <a href="https://twitter.com/ezemcs" target="_blank">
+                    <div class="social">
+                        <img src="images/s2.svg" alt="">
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/ezemcs/?hl=es-la" target="_blank">
+                    <div class="social">
+                        <img src="images/s3.svg" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
