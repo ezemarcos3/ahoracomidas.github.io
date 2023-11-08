@@ -158,6 +158,12 @@ body{
     margin-top: 50px;
 }
 
+.botones-1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
 .btn-1{
     display: inline-block;
     padding: 15px 35px;
@@ -172,11 +178,6 @@ body{
 
 .btn-1:hover{
     background-color: #DB241B;
-}
-
-.botones-1{
-    margin: 0 340px;
-    margin-bottom: 100px;
 }
 
 .btn-3{
@@ -543,11 +544,20 @@ body{
     .btn-1{
         font-size: 16px;
     }
-    .botones-1{
-        font-size: 16px;
-        flex-direction: column;
-        margin-left: 80px;
+
+    .btn-3{
+        padding: 10px 25px;
+        font-size: 14px;
     }
+
+    .btn-3{
+        font-size: 16px;
+    }
+
+    .botones-1{
+        text-align: center;
+    }
+
     .horario{
         padding: 30px;
         text-align: center;
