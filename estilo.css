@@ -543,7 +543,11 @@ body{
     .btn-1{
         font-size: 16px;
     }
-
+    .botones-1{
+        font-size: 16px;
+        flex-direction: column;
+        margin-left: 80px;
+    }
     .horario{
         padding: 30px;
         text-align: center;
